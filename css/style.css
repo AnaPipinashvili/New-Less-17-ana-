@@ -1,0 +1,84 @@
+.posts{
+    background-color: lightpink;
+    padding: 15px;
+    margin: 15px;
+    width: 300px;
+    border-radius: 30%;
+    border-style: groove;
+    text-align: center;
+    
+
+}
+
+
+.post-wrapper{
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 25px;
+    
+}
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+    opacity: 70%;
+    display: none;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    
+}
+.overlay.active{
+    display: block;
+}
+
+.close{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    font-size: 40px;
+    cursor: pointer;
+    color: brown;
+}
+
+.add-post {
+    width: 60px;
+    height: 60px;
+    background-color: violet;
+    border-radius: 50%;
+    border: none;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.overlay-add {
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color:bisque;
+    opacity: 70%;
+    display: none;
+    color: rgb(199, 11, 11);
+}
+.overlay-add.active-add {
+    display: block;
+}
+.form {
+    display: flex;
+    margin-top: 50px
+}
+.del-div {
+    display: none;
+}
